@@ -5,6 +5,7 @@ an empty git repository is initialized. to initialize a git repository, to save 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+staging area is a intermediate state where files are put before committing.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
