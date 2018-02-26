@@ -1,0 +1,36 @@
+1)	How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+it can minimize a developers effort to find the bug.so i found it very helpful.
+
+2)	How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+it can help a developer to keep track of the changes he/she has made to the code from the beginning. which will prove to be
+helpful while debugging.
+
+3)	What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros of manually choosing when to commit is the freedom to choose whether to apply changes to the code or not. and when to apply the 
+changes to code. 
+
+in automatic, you can not choose what to save and when to save.
+
+5)	Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+it's sometimes beneficial to have multiple files saved at a time. because sometimes some files are inter-dependent. reflect in one file
+would also require to have changes in other file also.
+
+6)	How can you use the commands git log and git diff to view the history of files?
+
+git log can be used in the cloned repository to list diff. versions of commits.
+
+and git diff can be used with two different commit ID's to find different between those 2 commits.	
+
+7)	How might using version control make you more confident to make changes that could break something?
+
+this feature gives confidence to the developer to make any changes without worrying about.. if it goes all wrong or worse.you can always
+go back to the last working commit and restore the code as it was before the bug was introduced.
+
+8)	Now that you have your workspace set up, what do you want to try using Git for?
+
+i'll be using git for keeping backup of my code. So if i make a small or big mistake in my project i can easily go back to earlier version
+of my code which was working perfectly.
