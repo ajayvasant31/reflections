@@ -1,0 +1,6 @@
+ 1) When would you want to use a remote repository rather than keeping all your work local?
+ 
+->  when your working on a project it's good to have a remote copy of your flies available so if the pc you are working on gets lost 
+    or damaged you can simply get your files back from remote machine.other than that when you are working in a collaborative project 
+     environment you have to share your work with others as well so rather than sending your code to each individuals you can make a 
+     remote repository and share the link with others, so others can also access the code.
