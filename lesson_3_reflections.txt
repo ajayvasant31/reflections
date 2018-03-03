@@ -24,3 +24,9 @@
 
 ->	you have the idea about the latest commits on your remote repository even when you are not connected to internet. it helps to keep
 	track of the most recent commit in offline mode.
+	
+5)	How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+->	without git? well it would be lot harder to collaborate with lots of people working on the same project. i would have to have them
+	send their version of code by email and then i would have to check their codes individually and line by line that if their code can 
+	be merged into mine or not. git and git-hub makes it so easy by providing pull request feature.
