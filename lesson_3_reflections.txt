@@ -19,3 +19,8 @@
 	cloning is copying a repository from github to your local machine or copying a repository from a local machine to a local machine.
 	
 	branches can be made on local machine or on github. branches helps to maintain different versions of your code.
+
+4)	What is the benefit of having a copy of the last known state of the remote stored locally?
+
+->	you have the idea about the latest commits on your remote repository even when you are not connected to internet. it helps to keep
+	track of the most recent commit in offline mode.
