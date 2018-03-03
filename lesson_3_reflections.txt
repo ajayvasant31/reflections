@@ -30,3 +30,10 @@
 ->	without git? well it would be lot harder to collaborate with lots of people working on the same project. i would have to have them
 	send their version of code by email and then i would have to check their codes individually and line by line that if their code can 
 	be merged into mine or not. git and git-hub makes it so easy by providing pull request feature.
+	
+6)	When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+->	when we aren't sure about the pull request or the pull request contains code which has some error in it.so we definetly do not 
+	want that to code to be merged into our master branch.instead we give them comments and give them a chance to locally pull our repository	
+	into thier local machine solve the errors and conflicts and when push it back onto their branch which they want to merge with us and if
+	the git compare is green then we can merge that branch into master branch.
