@@ -4,3 +4,18 @@
     or damaged you can simply get your files back from remote machine.other than that when you are working in a collaborative project 
      environment you have to share your work with others as well so rather than sending your code to each individuals you can make a 
      remote repository and share the link with others, so others can also access the code.
+	 
+2)	Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+->	that way you can have control over what you really want to pull on your local repository. because in open projects many users post
+	their version of the code and if you select to have git automatically update your local repository with remote repository then there's 
+	some chance that you get wrong code downloaded into your local repository.
+
+3)	Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+->	fork can be simply explained as cloning repository on github. as you clone one repository from github to your local machine
+	by using fork you can clone one github repository to your github account.
+	
+	cloning is copying a repository from github to your local machine or copying a repository from a local machine to a local machine.
+	
+	branches can be made on local machine or on github. branches helps to maintain different versions of your code.

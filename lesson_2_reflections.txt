@@ -1,22 +1,42 @@
-What happens when you initialize a repository? Why do you need to do it?
+1)	What happens when you initialize a repository? Why do you need to do it?
 
-an empty git repository is initialized. to initialize a git repository, to save our projects.
+->	a .git file is created.which helps to keep tracks of files and commits.
+	an empty git repository is initialized. to initialize a git repository, to save our projects.
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+2)	How is the staging area different from the working directory and the repository?
+	What value do you think it offers?
 
-staging area is a intermediate state where files are put before committing.
+->	staging area is a intermediate state where files are put before committing. it's really helpful when you want to make a single logical commit.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+3)	How can you use the staging area to make sure you have one commit per logical
+	change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+->	you can use the command "git add" to add individual files into staging area and then commit it. 
 
-How do the diagrams help you visualize the branch structure?
+4)	What are some situations when branches would be helpful in keeping your history
+	organized? How would branches help?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+->	branches are helpful when you want to add new features in your code but not sure whether it will work or not like in testing so branches
+	can be helpful in those cases where you leave the actual code intact and you can keep experimenting on existing code. so if the experiment
+	goes wrong the actual code is still available.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+	branches also helps to have more than version of the same code. for example you can build a game and you can make two branches like one 
+	as easy-mode and one as hard-mode.
+	
+5)	How do the diagrams help you visualize the branch structure?
+
+->	diagrams helps you to visualize tree of commits we did from the initialization of repository and it helps to understand rechability.
+
+6)	What is the result of merging two branches together? Why do we represent it in
+	the diagram the way we do?
+	
+->	when we merge two branches ultimately we are merging one branch into another for example we are developing a game and we developed a module
+	and then there's another  module of the game and we want to include in our game then we could use merge to include that code into our game.
+	after merging the module we merged is not shown because it was merged into our module so finally our module is shown.
+
+7)	What are the pros and cons of Git's automatic merging vs. always doing merges
+	manually?
+	
+->	git's automatic merging is not always wise. It can't resolve conflicts in merge by itself.
+	on the other hand , manual merge is advisable because  you have full control over merge and you can efficiently resolve the conflicts
+	occured during merge.
